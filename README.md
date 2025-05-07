@@ -1,4 +1,4 @@
-#Boris Proxy
+# Boris Proxy
 
 Simple proxy with simple config
 
@@ -18,24 +18,25 @@ Create your config:
   }
 }
 
-##Sources
-###Struct
+## Sources
+### Struct
 {
   "name": <Name>,
   "type": <Type>,
   "conn": <Sink or router conected to>
 }
-###Types
+### Types
 - HTTPS = Makes a https server
 - HTTP = Makes a http server
-###HTTPS
+### HTTPS
 Params:
 - addr: Address
 - port: Port
 - cert_path: Private pfx path
 - cert_pass: pfx password
-###HTTP
+### HTTP
 - addr: Address
 - port: Port
 
-#Sinks
+# Sinks
+Idk
